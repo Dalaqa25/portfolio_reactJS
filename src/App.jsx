@@ -1,5 +1,6 @@
 import Header from '../components/header'
 import Body from '../components/body'
+import Projects from '../components/projects'
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <Header/>
       <Body/>
+      <Projects/>
     </>
   )
 }
