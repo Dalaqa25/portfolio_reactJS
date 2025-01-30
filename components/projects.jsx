@@ -14,9 +14,13 @@ export default function Projects() {
             <div className='img-container'>
                 <div className='header'>
                     <div className='btn-container'>
-                        <div className='btn'></div>
-                        <div className='btn'></div>
-                        <div className='btn'></div>
+                        <div className='btn red-btn'></div>
+                        <div className='btn yellow-btn'></div>
+                        <div className='btn green-btn'></div>
+                    </div>
+
+                    <div className='search-bar'>
+                        <p>🔒 www.syncry.netlify.app</p>
                     </div>
                 </div>
 
