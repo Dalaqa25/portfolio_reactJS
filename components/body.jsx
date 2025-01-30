@@ -6,8 +6,11 @@ export default function Body() {
             <div className="body">
                 <div className='content'>
                     <h1>About me</h1>
-                    <p>I'm an IT student specializing in .NET development. Passionate about programming, Linux, and DevOps, I enjoy solving challenges and building web applications.</p>
+                    <p>I'm an informational technology student specializing in .NET development. I enjoy programming, Linux, and DevOps. Experienced in databases, Web APIs, and MVC, I'm also learning React to expand my skills.</p>
                     <button id='projects-btn'>Resume</button>
+                </div>
+                <div className='bubble'>
+                    <img src="assets\profileimg.png" alt="" />
                 </div>
             </div>
         </>
