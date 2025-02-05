@@ -25,7 +25,9 @@ export default function Projects() {
                 </div>
 
                 <div className='imgframe'>
-                    <img src={ syncro }  alt="" />
+                    <a target={"_blank"} href="https://github.com/Dalaqa25/portfolio_reactJS">
+                        <img src={ syncro }  alt="" />
+                    </a>
                 </div>
             </div>
 
