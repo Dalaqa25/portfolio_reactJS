@@ -27,6 +27,8 @@ export default function Form() {
                         <img src={gitSVG} alt="github"/>
                         <img src={lnSVG} alt="linkedin"/>
                     </div>
+
+                    <p style={{textAlign:'center', margin:"32px, 0px, 0px,0px", color:"#cccdd0"}}>Giorgi Dalakishvili 2025</p>
                 </form>
             </div>
         </>

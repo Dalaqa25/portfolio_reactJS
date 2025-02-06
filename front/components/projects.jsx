@@ -1,15 +1,10 @@
 import '../assets/project.css';
 import syncro from '../assets/syncro.png';
 
-export default function Projects() {
+export default function Projects(props) {
     return (
         <div className="projects-container">
             <div className="projects">
-                <div>
-                    <h2>Projects</h2>
-                    <div className='underline'></div>
-                </div>
-
             <div className='img-container'>
                 <div className='header'>
                     <div className='btn-container'>
@@ -19,13 +14,13 @@ export default function Projects() {
                     </div>
 
                     <div className='search-bar'>
-                        <p>🔒 www.syncry.netlify.app</p>
+                        <p>🔒 {props.title}</p>
                     </div>
                 </div>
 
                 <div className='imgframe'>
-                    <a target={"_blank"} href="https://github.com/Dalaqa25/portfolio_reactJS">
-                        <img src={ syncro }  alt="" />
+                    <a target={"_blank"} href={props.link}>
+                        <img src={ props.img.src }  alt={props.img.alt} />
                     </a>
                 </div>
             </div>
