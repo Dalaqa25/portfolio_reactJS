@@ -1,0 +1,85 @@
+body {
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 16px;
+}
+
+h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    color: #333333;
+    text-align: center;
+}
+
+.underline {
+    width: 100px;
+    height: 4px;
+    background-color: #fdc435;
+    margin: 4px auto;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 78px;
+}
+
+form {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+input,textarea {
+    border:1px solid #ebeff6;
+    border-radius: 8px;
+    color: #25282b;
+    outline: none;
+}
+
+input {
+    height: 40px;
+    padding: 0 12px;
+}
+
+textarea {
+    max-height: 200px;
+    min-height: 200px;
+    padding: 5px 12px;
+    max-width: 375px;
+    min-width: 375px;
+    resize: none;
+}
+
+label {
+    color: #25282b;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+button {
+    width: 84px;
+    height: 43px;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 500;
+    background-color: #fdc435;
+}
+
+.social-icons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 29px;
+}
+
+.social-icons img {
+    width: 48px;
+    cursor: pointer;
+}

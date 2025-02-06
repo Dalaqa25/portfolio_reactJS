@@ -7,8 +7,7 @@ export default function Projects() {
             <div className="projects">
                 <div>
                     <h2>Projects</h2>
-                    <div
-                    className='underline'></div>
+                    <div className='underline'></div>
                 </div>
 
             <div className='img-container'>
