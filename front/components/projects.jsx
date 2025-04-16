@@ -3,7 +3,7 @@ import '../assets/project.css';
 export default function Projects(props) {
     return (
         <>
-        <div className="projects-container">
+        <div id="projects" className="projects-container">
             <div className="projects">
             <div className='img-container'>
                 <div className='header'>

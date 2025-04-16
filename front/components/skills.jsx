@@ -15,14 +15,16 @@ export default function Skills() {
 
     return (
         <>
+        <div id="skills">
             <h2>Skills</h2>
-            <div className="underline"></div>
+                <div className="underline"></div>
 
-            <div style={{marginTop:'70px'}} className="skills-container">
-                <div className='skills-wrapper'>
-                    {skillsElements}
+                <div style={{marginTop:'70px'}} className="skills-container">
+                    <div className='skills-wrapper'>
+                        {skillsElements}
+                    </div>
                 </div>
-            </div>
+        </div>
         </>
     )
 }
