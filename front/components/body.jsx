@@ -31,10 +31,8 @@ export default function Body() {
                     <img src={ profileimg } alt="profileimg" />
                 </div>
             </div>
-            <div style={{ margin:'70px 0px 0px 0px' }}>
-                <h2>Projects</h2>
-                <div className='underline'></div>
-            </div>
+            <h2>Projects</h2>
+            <div className='underline'></div>
         </>
     )
 }

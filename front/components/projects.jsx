@@ -2,6 +2,7 @@ import '../assets/project.css';
 
 export default function Projects(props) {
     return (
+        <>
         <div className="projects-container">
             <div className="projects">
             <div className='img-container'>
@@ -26,5 +27,6 @@ export default function Projects(props) {
 
             </div>
         </div>
+        </>
     );
 }

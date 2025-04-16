@@ -1,5 +1,6 @@
 import syncro from '../front/assets/datapng/syncro.png'
 import yamaha from '../front/assets/datapng/yamaha.png'
+import crossedIn from '../front/assets/datapng/crossedin.png'
 
 export default [
     {
@@ -19,5 +20,14 @@ export default [
         },
         title: "www.yamahamotors.com",
         link:"https://yamahageo.netlify.app/"
+    },
+    {
+        id: 3,
+        img: {
+            src: crossedIn,
+            alt: "project image (crossedIn)"
+        },
+        title: "www.crossedIn.com",
+        link:"https://crossedin.netlify.app/"
     }
 ]

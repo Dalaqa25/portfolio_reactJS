@@ -4,7 +4,7 @@ import Projects from '../components/projects'
 import PopUp from '../components/popUp'
 import Waves from '../components/waves'
 import Form from "../components/form.jsx";
-
+import Skills from '../components/skills.jsx'
 //data
 import data from '../data.js'
 
@@ -18,12 +18,14 @@ function App() {
             />
         )
     })
+   
 
   return (
     <>
       <Header/>
       <Body/>
         {dataElements}
+        <Skills/>
         <PopUp/>
         <Form/>
         <Waves/>
