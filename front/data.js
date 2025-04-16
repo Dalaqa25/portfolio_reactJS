@@ -1,12 +1,12 @@
-import syncro from './assets/syncro.png'
-import netlify from './assets/netlify.png'
+import syncro from '../front/assets/datapng/syncro.png'
+import yamaha from '../front/assets/datapng/yamaha.png'
 
 export default [
     {
         id: 1,
         img: {
             src: syncro,
-            alt: "project image"
+            alt: "project image (sycry)"
         },
         title: "www.nyncry.netlify.app",
         link:"https://syncry.netlify.app/"
@@ -14,10 +14,10 @@ export default [
     {
         id: 2,
         img: {
-            src: netlify,
-            alt: "project image"
+            src: yamaha,
+            alt: "project image (yamamaha)"
         },
-        title: "www.Netlify.com",
-        link:"https://syncry.netlify.app/"
+        title: "www.yamahamotors.com",
+        link:"https://yamahageo.netlify.app/"
     }
 ]

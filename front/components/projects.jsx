@@ -1,5 +1,4 @@
 import '../assets/project.css';
-import syncro from '../assets/syncro.png';
 
 export default function Projects(props) {
     return (
@@ -20,7 +19,7 @@ export default function Projects(props) {
 
                 <div className='imgframe'>
                     <a target={"_blank"} href={props.link}>
-                        <img src={ props.img.src }  alt={props.img.alt} />
+                     <img src={ props.img.src }  alt={props.img.alt} /> 
                     </a>
                 </div>
             </div>
