@@ -26,22 +26,6 @@ a {
     transition: all 0.3s;
 }
 
-a::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -3px; 
-    width: 0; 
-    height: 3px; 
-    background-color: #fdc435; 
-    transition: width 0.3s ease; 
-    border-radius: 20px;
-}
-
-a:hover::after {
-    width: 100%; 
-}
-
 a:hover {
     cursor: pointer;
 }
