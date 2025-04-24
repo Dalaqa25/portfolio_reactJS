@@ -45,3 +45,11 @@ a:hover::after {
 a:hover {
     cursor: pointer;
 }
+
+@media (max-width: 984px) {
+    header {
+        height: 40px;
+        font-size: 15px;
+        padding: 1% 5%;
+    }
+}
