@@ -1,6 +1,6 @@
 import '../assets/skills.css';
 import skillsdata from '../skillsdata'; 
-import SkillsComp from './SkillsComp'; 
+import SkillsComp from './skillsComp';
 
 export default function Skills() {
 
