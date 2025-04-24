@@ -37,3 +37,19 @@ a:hover {
         padding: 1% 5%;
     }
 }
+
+@media (max-width: 600px) {
+    ul {
+        display: flex;
+        gap: 10px;
+        font-weight: normal;
+    } 
+    nav {
+        display: none;
+    }
+    .menu img {
+        width: 40px;
+        transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+   
+}

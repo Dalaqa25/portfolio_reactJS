@@ -6,7 +6,6 @@
 }
 
 .skills-wrapper {
-    width: 40%;
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
     gap: 20px; 
@@ -23,9 +22,17 @@
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     margin: auto;
+    transition: all 0.3s ease;
 }
 
 .Skill-img-container img {
     width: 70px;
     height: 70px;
+}
+
+@media (max-width: 768px) {
+    .Skill-img-container {
+        width: 100px;
+        padding: 20px 0px;
+    }
 }

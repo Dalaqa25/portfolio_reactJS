@@ -32,6 +32,7 @@ form {
     display: flex;
     flex-direction: column;
     gap: 24px;
+    padding: 10px;
 }
 
 input,textarea {
@@ -83,4 +84,37 @@ button {
 .social-icons img {
     width: 48px;
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .form-container {
+        margin-top: 50px;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    input, textarea {
+        max-width: 100%;
+        min-width: 100%;
+    }
+}
+@media (max-width: 480px) {
+    h2 {
+        font-size: 30px;
+    }
+
+    .form-container {
+        margin-top: 20px;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    input, textarea {
+        max-width: 100%;
+        min-width: 100%;
+    }
 }

@@ -1,6 +1,7 @@
 import '../assets/header.css';
 
 export default function Header() {
+
     return (
         <header>
             <p>Giorgi Dalakishvili</p>
@@ -12,5 +13,5 @@ export default function Header() {
                 </ul>
             </nav>
         </header>
-    )
+    );
 }

@@ -14,7 +14,7 @@ export default function Projects(props) {
                         </div>
 
                         <div className='search-bar'>
-                            <p>🔒 {props.title}</p>
+                            <p> {props.title}</p>
                         </div>
                     </div>
 
