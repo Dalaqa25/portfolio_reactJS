@@ -1,7 +1,6 @@
 import Header from '../components/header'
 import Body from '../components/body'
 import Projects from '../components/projects'
-import PopUp from '../components/popUp'
 import Waves from '../components/waves'
 import Form from "../components/form.jsx";
 import Skills from '../components/skills.jsx'
@@ -26,7 +25,6 @@ function App() {
       <Body/>
         {dataElements}
         <Skills/>
-        <PopUp/>
         <Form/>
         <Waves/>
     </>
