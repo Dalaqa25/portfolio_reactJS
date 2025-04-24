@@ -17,7 +17,7 @@ export default function Body() {
             <div className="body">
                 <div className='content'>
                     <p style={{color:'#fdc435', fontWeight:'bold', marginBottom:'12px'}}>Software Developer</p>
-                    <h1 style={{fontSize:'55px'}}>Hello, my name is <br/> Giorgi Dalakishvili</h1>
+                    <h1>Hello, my name is <br/> Giorgi Dalakishvili</h1>
                     <p>I'm an informational technology student specializing in .NET development. I enjoy programming, Linux, and DevOps. Experienced in databases, Web APIs, and MVC, I'm also learning React to expand my skills.</p>
                     <a href="/CV.pdf" download={CV}>
                         <button
